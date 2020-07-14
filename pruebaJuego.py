@@ -59,4 +59,4 @@ def repartidorRec(mazo,x):
         mazo = mazo[4:]
         return mano, mano2, mano3, mano4, mazo
 
-print (repartidorRec(mazo,5))
+print (repartidor(mazo,7))
