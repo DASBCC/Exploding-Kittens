@@ -24,6 +24,7 @@ lbExplodingKittens.place(x=200, y=10)
 
 btnSalir = tk.Button(ventana, text="Salir", command=ventana.quit)
 
+
 lbPerdiste= tk.Label(ventana, text="PERDISTE!!", bg="green", fg="red", font=('Ubuntu Monospace', 50))
 
 def perdiste():

@@ -43,8 +43,8 @@ def repartidor(mazo,x):
         mano4.append(mazo[3])
         x = x - 1
         mazo = mazo[4:]
-    mazo.extend(["bomba","bomba","bomba","bomba"])
-     mazo = revuelveMazo(mazo)
+    mazo.extend(["bomba","bomba","bomba"])
+    mazo = revuelveMazo(mazo)
     return mano, mano2, mano3, mano4, mazo
 
 def repartidorRec(mazo,x):  #mazo es la lista con las cartas, x es la cantidad de cartas por jugador
@@ -65,6 +65,5 @@ def repartidorRec(mazo,x):  #mazo es la lista con las cartas, x es la cantidad d
         mazo = mazo[4:]
         return mano, mano2, mano3, mano4, mazo
 
-
-
+   
 print (repartidor(mazo,7))
