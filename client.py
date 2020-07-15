@@ -4,11 +4,7 @@ HEADER = 64
 PORT = 5050
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-<<<<<<< HEAD
-SERVER = "192.168.0.112"
-=======
 SERVER = "192.168.1.7"
->>>>>>> 526e55b1ed174f646e270c7befbf93613ccbeedf
 ADDR = (SERVER, PORT)
 print("Hola mundo")
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

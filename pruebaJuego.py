@@ -43,11 +43,7 @@ def repartidor(mazo,x):
         mano4.append(mazo[3])
         x = x - 1
         mazo = mazo[4:]
-<<<<<<< HEAD
-    mazo.extend(["bomba","bomba","bomba"])
-=======
     mazo.extend(["bomba","bomba","bomba","bomba"])
->>>>>>> 526e55b1ed174f646e270c7befbf93613ccbeedf
     mazo = revuelveMazo(mazo)
     return mano, mano2, mano3, mano4, mazo
 

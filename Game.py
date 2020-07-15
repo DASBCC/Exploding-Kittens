@@ -16,24 +16,11 @@ ventana.geometry("{}x{}+{}+{}".format(ANCHO, ALTO, POS_VENTANA_X, POS_VENTANA_Y)
 ventana.resizable(width=False, height=False)
 ventana.config(bg="green")
 
-<<<<<<< HEAD
-mazo = ["DEFUSE.png", "BOMB.png", "COMODIN.png", "FAVOR.png", "SHUFFLE.png", "SEETHEFUTURE.png"]
-
-
-lbExplodingKittens = tk.Label(ventana, text="Exploding Kittens")
-lbExplodingKittens.place(x=200, y=10)
-
-btnSalir = tk.Button(ventana, text="Salir", command=ventana.quit)
-
-
-lbPerdiste= tk.Label(ventana, text="PERDISTE!!", bg="green", fg="red", font=('Ubuntu Monospace', 50))
-=======
 mazo = ["DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png"]
 mano = []
 mano2= []
 mano3= []
 mano4= []
->>>>>>> 526e55b1ed174f646e270c7befbf93613ccbeedf
 
 def perdiste():
     btnSalir.place(x=1055, y=600)
