@@ -56,6 +56,8 @@ def perdiste():
     MAZO.config(file=mazo[7])
     CARTA1.config(file=mazo[27])
 
+#Función que manda la carta al centro
+
 def carta_al_centro1():
     MAZO.config(file=mano[0])
     CARTA1.config(file="")
