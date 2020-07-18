@@ -16,13 +16,19 @@ ventana.geometry("{}x{}+{}+{}".format(ANCHO, ALTO, POS_VENTANA_X, POS_VENTANA_Y)
 ventana.resizable(width=False, height=False)
 ventana.config(bg="green")
 
+<<<<<<< HEAD
+mazo = ["DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "DESUFE.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png"]
+=======
 #Mazo y manos de los jugadores
 
 mazo = ["DEFUSE.png", "DEFUSE.png", "DEFUSE.png", "DEFUSE.png", "DEFUSE.png", "DEFUSE.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN1.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN2.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN3.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN4.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "COMODIN5.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "FAVOR.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SHUFFLE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png", "SEETHEFUTURE.png"]
+>>>>>>> e5975b894b47b4151988fa88f70bb8a1e954f02c
 mano = []
 mano2= []
 mano3= []
 mano4= []
+<<<<<<< HEAD
+=======
 
 def revuelveMazo(l):   #revuelve el mazo central
     random.shuffle(l)
@@ -50,6 +56,7 @@ def ij(): #Funcion iniciar juego
     CARTA5.config(file=mano[4])
     CARTA6.config(file=mano[5])
     CARTA7.config(file=mano[6])
+>>>>>>> e5975b894b47b4151988fa88f70bb8a1e954f02c
 
 def perdiste():
     btnSalir.place(x=1055, y=600)
