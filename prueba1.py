@@ -77,9 +77,16 @@ def carta_usada():
         C_USADAS.config(file=mano[0])
 
 def buscaComodin():
-    if COMODIN1.png and COMODIN1.png in mano or COMODIN2.png and COMODIN2.png in mano or COMODIN3.png and COMODIN3.png or COMODIN4.png and COMODIN4.png or COMODIN5.png and COMODIN5.png:
+    if mano.count("COMODIN1.png") >=2 or mano.count("COMODIN2.png") >=2 or mano.count("COMODIN3.png") >=2 or mano.count("COMODIN4.png") >=2 or mano.count("COMODIN5.png") >=2:
+        print ("True")
         return True
     else:
+        print (mano.count("COMODIN1.png"))
+        print (mano.count("COMODIN2.png"))
+        print (mano.count("COMODIN3.png"))
+        print (mano.count("COMODIN4.png"))
+        print (mano.count("COMODIN5.png"))
+        print ("False")
         return False
 
 def seeTheFuture(l):   #enseña las siguientes tres cartas en el mazo
