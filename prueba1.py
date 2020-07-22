@@ -81,12 +81,12 @@ def buscaComodin():
         print ("True")
         return True
     else:
-        print (mano.count("COMODIN1.png"))
-        print (mano.count("COMODIN2.png"))
-        print (mano.count("COMODIN3.png"))
-        print (mano.count("COMODIN4.png"))
-        print (mano.count("COMODIN5.png"))
-        print ("False")
+        #print (mano.count("COMODIN1.png"))
+        #print (mano.count("COMODIN2.png"))
+        #print (mano.count("COMODIN3.png"))
+        #print (mano.count("COMODIN4.png"))
+        #print (mano.count("COMODIN5.png"))
+        #print ("False")
         return False
 
 def seeTheFuture(l):   #enseña las siguientes tres cartas en el mazo
@@ -115,6 +115,7 @@ def siguiente():
     global mano
     mano.append(mano[0])
     mano = mano[1:]
+    #print(mano)
     CARTA.config(file=mano[0])
 
 def carta_al_centro_actual():
