@@ -23,6 +23,7 @@ mano = []
 mano2= []
 mano3= []
 mano4= []
+bombas = ["BOMB.png","BOMB.png","BOMB.png","BOMB.png"]
 
 def revuelveMazo(l):   #revuelve el mazo central(l)
     random.shuffle(l)
@@ -37,9 +38,11 @@ def repartidor(mazo,x):
         mano4.append(mazo[3])
         x = x - 1
         mazo = mazo[4:]
-    mazo.extend(["BOMBMA.png","BOMBA.png","BOMBA.png","BOMBA.png"])
-    mazo = revuelveMazo(mazo)
     return mano, mano2, mano3, mano4, mazo
+
+def agreg_bomb():
+    mazo.extend(bombas)
+    revuelveMazo(mazo)
 
 def ij(): #Funcion iniciar juego
     repartidor(mazo,7)
@@ -108,8 +111,7 @@ def checkBomba(l):   #revisa si la bomba está en el mazo(l) del jugador
 
 def perdiste():
     btnSalir.place(x=1055, y=600)
-    MAZO.config(file=mazo[7])
-    CARTA1.config(file=mazo[27])
+
 
 def siguiente():
     global mano
