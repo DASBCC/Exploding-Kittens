@@ -37,7 +37,7 @@ def repartidor(mazo,x):
         mano4.append(mazo[3])
         x = x - 1
         mazo = mazo[4:]
-    mazo.extend(["BOMBMA.png","BOMBA.png","BOMBA.png","BOMBA.png"])
+    mazo.extend(["BOMBA.png","BOMBA.png","BOMBA.png","BOMBA.png"])
     mazo = revuelveMazo(mazo)
     return mano, mano2, mano3, mano4, mazo
 
